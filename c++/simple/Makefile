@@ -44,10 +44,10 @@ all: $(EXECUTABLE_NAMES)
 # FOR EXAMPLE, YOU COULD DO:
 #
 # tool: $(OBJS)
-#	$(CXX) $(LDFLAGS) -o tool $(OBJS) $(LDLIS)
+#	$(CXX) $(LDFLAGS) -o tool $(OBJS) $(LDLIBS)
 # 
 # this: $(OBJS)
-#	$(CXX) $(LDFLAGS) -o this $(OBJS) $(LDLIS)
+#	$(CXX) $(LDFLAGS) -o this $(OBJS) $(LDLIBS)
 ####################################################
 
 depend: .depend
